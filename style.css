@@ -1,0 +1,78 @@
+
+body{
+	margin: 0;
+}
+#header{
+	background-color: #264e70;
+	height: 90px;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 20px;
+	position: sticky;
+	text-transform: uppercase;
+	color: white;
+	font-family: cursive;
+}
+#_mood_sketcher04{
+	color: white;
+}
+
+/*welcome*/
+#welcome img{
+	width: 100%;
+}
+
+/*image Slider*/
+#picture{
+	width: 49%;
+	padding: 2px;
+	position: relative;
+	float: left;
+	border-radius: 5%;
+}
+
+#slider_img{
+	width: 100%;
+}
+
+/*contact div
+*/
+#contact_div{
+	background-color: #F46A53;
+	height: 200px;
+	text-align: center;
+	color: #854237;
+	padding-top: 2%;
+	font-size: 35px;
+	font-family: cursive;
+}
+
+/*Main images*/
+#main_div{
+	position: absolute;
+	background-color: #679186;
+}
+
+#sub_div{
+	position: relative;
+	float: left;
+	width: 33.33%;
+}
+#sub_div_pic{
+	padding: 5px;
+	width: 100%;
+	border-radius: 5%;
+}
+
+#sub_div_pic:hover{
+	transform: scale(1.1);
+}
+
+/*quot*/
+#quot{
+	padding-top: 45%;
+}
+#quot img{
+	padding: 20px;
+	width: 100%;
+}
